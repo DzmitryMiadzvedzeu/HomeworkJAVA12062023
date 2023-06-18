@@ -1,0 +1,68 @@
+package homeworks;
+
+public class DZ12062023 {
+    public static void main(String[] args) {
+        String k = "три переменные типа char";
+        String l = "способ номер один";
+        String i = "способ номер два";
+        String o = "способ номер три";
+
+        //создайте три переменные типа char, равные 0,
+        // разработайте подход для перевода
+        // значения из char в int тремя способами
+
+        //блок1
+
+        char m = '\u0030';
+        char v = 48;
+        char d = '0';
+        System.out.println(k);
+        System.out.println(m);
+        System.out.println(v);
+        System.out.println(d);
+        System.out.println();
+
+        //блок2
+
+        System.out.println(l);
+        int q = m;
+        int a = v;
+        int z = d;
+        System.out.println(q);
+        System.out.println(a);
+        System.out.println(z);
+        System.out.println();
+
+        //блок3
+
+        System.out.println(i);
+
+        String t = String.valueOf(m);
+        int tt = Integer.parseInt(t);
+        System.out.println(tt);
+
+        String g = String.valueOf(v);
+        int gg = Integer.parseInt(g);
+        System.out.println(gg);
+
+        String b = String.valueOf(d);
+        int bb = Integer.parseInt(b);
+        System.out.println(bb);
+        System.out.println();
+
+        //блок4
+
+        System.out.println(o);
+
+        int y = Character.getNumericValue(m);
+        System.out.println(y);
+
+        int h = Character.getNumericValue(v);
+        System.out.println(h);
+
+        int n = Character.getNumericValue(d);
+        System.out.println(n);
+
+
+    }
+}
